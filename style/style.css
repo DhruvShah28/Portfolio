@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* #a2f5ff */
+
+/*body{
+    background: url(../images/heroback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+
+body{
+    font-family: 'Poppins';
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat';
+}
+
+.navbar ul li a{
+    color: #000;
+
+}
+
+.hero-img{
+    filter: grayscale(1);
+    transition: filter 500ms ease-in-out;
+}
+
+
+.hero-img:hover{
+    filter: grayscale(0);
+    transition: filter 500ms ease-in-out;
+}
+
+.skills-sec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skill_body{
+    width: 90%;
+    align-self: center;
+}
+
+.skill_name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill_line{
+    display: flex;
+    height: 2px;
+    overflow: hidden;
+    background-color: #e9ecef;
+}
+
+.filled_line{
+    background-color: #616161;
+}
+
+.proj_body{
+    display: flex;
+}
+
+.proj_card{
+    background-color: blanchedalmond;
+    width: 250px;
+    Height: 250px;
+}
+
+.proj_card img{
+    width: 100%;
+    height: 100%;
+}
+.proj_body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact_body{
+    display: flex;
+
+}
+
+.cont-name{
+    font-weight: bold;
+}
+
+input[type=text]{
+    border: none;
+    border-bottom: 1px black solid;
+    width: 45%;
+    margin: 10px 10px;
+}
+
+textarea{
+    border: none;
+    border-bottom: 1px black solid;
+    width: 90%;
+    margin: 10px 10px;
+}
+
+.footer-sec{
+    display: flex;
+    justify-content: space-between;
+}
