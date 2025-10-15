@@ -284,7 +284,7 @@ section{
 .exper_box{
     border-radius: 30px;
     box-shadow: 3px 4px 10.9px 3px rgba(161, 161, 161, 0.45);
-    width: 45%;
+    width: 48%;
 }
 
 .exper_box{
@@ -350,7 +350,32 @@ section{
 
 .hire_data .hire_text{
     font-size: 20px;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.hire_text2{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu_table{
+    width: 80%;
+    align-items: center;
+    align-self: center;
+}
+
+.edu_box{
+border: #2D2D2D solid 1px;
+    border-radius: 20px;
+    margin: 9px 0px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 15% 22% 40% 23%;
+}
+
+.edu_table td, .edu_table th{
+    
 }
 
 .banner_holder{
@@ -564,3 +589,5 @@ textarea { resize: none; }
     align-items: center;
     justify-content: space-between;
 }
+
+
