@@ -60,15 +60,81 @@ section{
     font-weight: bold;
     padding: 5px 5px;
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 20px;  
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
-.navbar ul li a:hover{
+/* .navbar ul li a:hover{
     background-color: #FD853A;
     font-weight: bold;
     border-radius: 30px;
     color: #2D2D2D;
+} */
+
+.navbar ul li a::before,
+.navbar ul li a::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FD853A;
+  z-index: -1;
+  transform-origin: center;
+  transition: transform 0.3s ease;
 }
+.navbar ul li a::before {
+  transform: scaleX(0);
+}
+.navbar ul li a::after {
+  transform: scaleY(0);
+}
+
+/* Horizontal (used for left/right entry) */
+.animate_link.fill-left::before  {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.animate_link.fill-right::before {
+  transform-origin: right;
+  transform: scaleX(1);
+}
+
+/* Vertical (used for top/bottom entry) */
+.animate_link.fill-top::after {
+  transform-origin: top;
+  transform: scaleY(1);
+}
+.animate_link.fill-bottom::after {
+  transform-origin: bottom;
+  transform: scaleY(1);
+}
+
+
+/* out */
+/* Horizontal (used for left/right entry) */
+.animate_link.out-left::before  {
+  transform-origin: left;
+  transform: scaleX(0);
+}
+.animate_link.out-right::before {
+  transform-origin: right;
+  transform: scaleX(0);
+}
+
+/* Vertical (used for top/bottom entry) */
+.animate_link.out-top::after {
+  transform-origin: top;
+  transform: scaleY(0);
+}
+.animate_link.out-bottom::after {
+  transform-origin: bottom;
+  transform: scaleY(0);
+}
+
 
 .active{
     background-color: #FD853A;
@@ -103,10 +169,35 @@ section{
 }
 
 .hlink{
-    padding: 10px 20px;
-    color: #2D2D2D;
-    text-decoration: none;
-    font-size: 24px;
+    padding: 10px 20px ;
+    color: #2D2D2D ;
+    text-decoration: none ;
+    font-size: 24px ;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.hlink::before,
+.hlink::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FD853A;
+  z-index: -1;
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.hlink::before {
+  transform: scaleX(0);
+}
+.hlink::after {
+  transform: scaleY(0);
 }
 
 .sel_hlink{
@@ -350,7 +441,7 @@ section{
 }
 
 .hire_sec{
-    padding: 50px;
+    padding: 50px 50px 30px 50px;
 }
 
 .hire_sec h2{
@@ -466,6 +557,8 @@ section{
   }
 } */
 
+/* skills */
+
 .banner_holder{
     background-color: #FD853A;
     padding: 25px 0;
@@ -506,7 +599,27 @@ section{
     height: 100%;
 }
 
-/* skills */
+
+.skill_sec_head{
+    text-align: center;
+}
+
+.sk_head{
+    position: relative;
+}
+
+/* .sk_head::before{
+  content: ""; 
+  display: block;
+  position: absolute; 
+  text-align: center;
+  top: 50%; 
+  width: 10%; 
+  height: 1px; 
+  background-color: #2d2d2d; 
+} */
+
+
 
 .skill_line{
     display: flex;
