@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script/jquery-3.7.1.min.js"></script>
+    <script src="script/script.js"></script>
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruv Shah</title>
+</head>
+<body>
+    <header class="pg-m">
+        <!-- <nav class="navbar m-0 mt-2 z-3 w-100 start-0 top-0 position-fixed navbar-expand-sm justify-content-center"> -->
+        <nav class="navbar navbar-expand-sm justify-content-center">
+        <div class="container-fluid">
+                <ul>
+                    <li class="nav-item"><a class="nav-link animate_link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link animate_link" href="#project">Project</a></li>
+                    <li class="nav-item"><a class="nav-link animate_link" href="#exper">Experience</a></li>
+                </ul>
+                <div class="logo">
+                    DS
+                </div>
+                <ul>
+                    <li class="nav-item"><a class="nav-link animate_link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link animate_link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link animate_link" href="#">Resume</a></li>
+                </ul>
+        </div>
+    </nav>
+    </header>
+    <!-- hero section -->
+    <section class="pg-m">
+        <div class="hero_sec container-fluid">
+            <div class="row">
+                    <img src="images/peace_symbol.svg" alt="peace symbol" id="peace_svg">
+                <div class="hero_text col-md-6 text-center text-md-start">
+                    <div class="hero_name">Dhruv Shah</div>
+                    <div class="hero_sub">I'm a <span id="chang_text">Web Developer</span></div>
+                </div>
+                <div class="hero_img col-md-6">
+                    <img src="images/Dhruv_main.jpg" alt="Dhruv Shah" width="70%">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center mt-5">
+                    <div class="hero_link d-inline-flex gap-3">
+                        <a href="./images/Dhruv CV.pdf" class="hlink animate_link" target="_blank">Resume <i class="fa-solid fa-arr_angle fa-arrow-right"></i></a>
+                        <a href="./images/Dhruv CV.pdf" class="hlink animate_link" target="_blank" download="DhruvShah_CV">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="project_sec" id="project">
+            <div class="proj_head">
+                <h2>My <span class="orng">Projects</span></h2>
+            </div>
+            <div class="proj_body">
+                <!-- 13 -->
+                <a href="https://github.com/codeadamca/quirky-v2" target="_blank" class="proj_card" id="proj_13"><!--Change This-->
+                    <div class="proj_name">SPSS Foundation</div>
+                    <div class="proj_text" id="proj_text_13"> <!--Change This-->
+                        <ul class="proj_points">
+                            <li>
+                                <strong>Freelancing Project</strong>
+                            </li>
+                            <li>
+                                <strong>Tech Stack:</strong> HTML, CSS, JavaScript, Figma
+                            </li>
+                            <li>
+                                Collaborated remotely from Canada to design and develop a fully responsive NGO website from a Figma prototype using HTML, CSS, and JavaScript.
+                            </li>
+                            <li>
+                                Focused on accessibility, content clarity, and mobile optimization to help the organization improve community engagement and online reach.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a>
+                <!-- 1 -->
+                <a href="https://github.com/codeadamca/quirky-v2" target="_blank" class="proj_card" id="proj_1"><!--Change This-->
+                    <div class="proj_name">The Quirky Web</div>
+                    <div class="proj_text" id="proj_text_1"> <!--Change This-->
+                        <ul class="proj_points">
+                            <li>
+                                <strong>Tech Stack:</strong> MongoDB, Pug, Express, Node.JS, CSS
+                            </li>
+                            <li>
+                                Launched The Quirky Web a live web platform showcasing unique websites by Humber students, integrating a 
+                                Node + Express CRUD API with MongoDB for efficient content management. Ensured responsive layouts using 
+                                Pug templates, HTML, and CSS, delivering a user-friendly interface. 
+                            </li>
+                            <li>
+                                Delivered a project in collaboration with a Humber professor, aligned with both academic and industry standards, 
+                                strengthening team collaboration and real-world development skills.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a>
+                <!-- 2 -->
+                <a href="https://github.com/BrickMMO/roadview-v1" target="_blank" class="proj_card" id="proj_2"><!--Change This-->
+                    <div class="proj_name">Lego City Maps</div>
+                    <div class="proj_text" id="proj_text_2"><!--Change This--> 
+                        <ul class="proj_points">
+                            <li>
+                                <strong>Tech Stack:</strong> PHP, Laravel, MySQL, JavaScript, HTML, CSS
+                            </li>
+                            <li>
+                                Developed a block-style interactive map simulating a LEGO-inspired city, with real-time route generation using the 
+                                Breadth-First Search (BFS) pathfinding algorithm. 
+                            </li>
+                            <li>
+                                Built RESTful APIs in PHP/Laravel to manage building, road, and route data from a MySQL database.
+                            </li>
+                            <li>
+                                Included features like search, custom start/destination input, and optimal path visualization, improving usability for 
+                                navigation-like scenarios.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a>
+                <!-- 3 -->
+                <a href="https://casefiles.shahdhruv.com/" target="_blank" class="proj_card" id="proj_3"><!--Change This-->
+                    <div class="proj_name">Case Files: Hotel Levvie</div>
+                    <div class="proj_text" id="proj_text_3"><!--Change This--> 
+                        <ul class="proj_points">
+                            <li>
+                                <strong>Tech Stack:</strong> JavaScript, HTML, CSS, Figma
+                            </li>
+                            <li>
+                                Programmed an interactive web-based game inspired by Echoes, combining physical card scanning with online 
+                                gameplay. 
+                            </li>
+                            <li>
+                                Developed core gameplay logic in JavaScript, enabling progression through a narrative created by the radio team. 
+                            </li>
+                            <li>
+                                Led a team of designers and sound artists and Graphic Designers to deliver an immersive, cross-disciplinary project.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a>
+                <!-- 4 -->
+                <a href="https://github.com/DhruvShah28/TIFF" target="_blank" class="proj_card" id="proj_4"><!--Change This-->
+                    <div class="proj_name">TIFF Redesign</div>
+                    <div class="proj_text" id="proj_text_4"><!--Change This--> 
+                        <ul class="proj_points">
+                            <li>
+                                <strong>Tech Stack:</strong> Figma, HTML, CSS, JavaScript
+                            </li>
+                            <li>
+                                Conducted an in-depth case study on TIFF's digital engagement gaps, identifying key factors behind declining patron interaction and off-season revenue.
+                            </li>
+                            <li>
+                                Proposed a year-round engagement model featuring online film screenings, audience voting, and a community discussion hub to strengthen user involvement and brand loyalty.
+                            </li>
+                            <li>
+                                Delivered a comprehensive website redesign concept integrating UX research, data-driven insights, and prototype wireframes to enhance accessibility, engagement, and monetization.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a>   
+                    <!-- 5 -->
+                <a href="https://github.com/DhruvShah28/QuizCart" target="_blank" class="proj_card" id="proj_5"><!--Change This-->
+                    <div class="proj_name">Quiz Cart</div>
+                    <div class="proj_text" id="proj_text_5"><!--Change This--> 
+                        <ul class="proj_points">
+                            <li>
+                                <strong>Tech Stack:</strong> Asp.net (MVC), HTML, CSS, JS
+                            </li>
+                            <li>
+                                Developed an ASP.NET Core MVC web platform called QuizCart that integrates academic assessments with cost-sharing for “BrainFoods,” featuring full CRUD functionality for members, subjects, and purchases.
+                            </li>
+                            <li>
+                                Implemented modular architecture using Controllers, Services, Interfaces, and ViewModels to ensure scalable data flow, clean separation of concerns, and maintainable backend logic.
+                            </li>
+                            <li>
+                                Collaborated on feature development and optimization, including image upload management for ingredients, pagination across six entities, and database-driven balance tracking to streamline user experience.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a>
+                <!-- 6 -->
+                <a href="https://github.com/BrickMMO/roadview-v1" target="_blank" class="proj_card" id="proj_6"><!--Change This-->
+                    <div class="proj_name">Split Basket</div>
+                    <div class="proj_text" id="proj_text_6"><!--Change This--> 
+                        <ul class="proj_points">
+                            <li>
+                                <strong>Tech Stack:</strong> Asp.net (MVC), HTML, CSS, JS
+
+                            </li>
+                            <li>
+                                Developed an expense-splitting web platform (SplitBasket) using ASP.NET Core MVC and Entity Framework, enabling groups to track shared costs, calculate balances, and manage purchase history with full CRUD functionality.
+                            </li>
+                            <li>
+                                Implemented a modular layered architecture with API controllers, interfaces, and service layers to handle expense logic, balance calculations, and seamless database integration.
+                            </li>
+                            <li>
+                                Enhanced scalability and maintainability by designing a structured flow between Page Controllers, ViewModels, and Razor Views, ensuring smooth UI rendering and clear data communication.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a>
+                <!-- 7 -->
+                <a href="https://github.com/DhruvShah28/Toronto-attraction" target="_blank" class="proj_card" id="proj_7"><!--Change This-->
+                    <div class="proj_name">Portfolio Data Handler</div>
+                    <div class="proj_text" id="proj_text_7"><!--Change This--> 
+                        <ul class="proj_points">
+                            <li>
+                                <strong>Tech Stack:</strong> PHP, Laravel, CSS
+                            </li>
+                            <li>
+                                Developed a block-style interactive map simulating a LEGO-inspired city, with real-time route generation using the 
+                                Breadth-First Search (BFS) pathfinding algorithm. 
+                            </li>
+                            <li>
+                                Built RESTful APIs in PHP/Laravel to manage building, road, and route data from a MySQL database.
+                            </li>
+                            <li>
+                                Included features like search, custom start/destination input, and optimal path visualization, improving usability for 
+                                navigation-like scenarios.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a>
+                <!-- 8 -->
+                <a href="https://aimquest.shahdhruv.com/" target="_blank" class="proj_card" id="proj_8"><!--Change This-->
+                    <div class="proj_name">Aim Quest</div>
+                    <div class="proj_text" id="proj_text_8"><!--Change This--> 
+                        <ul class="proj_points">
+                            <li>
+                                <strong>Tech Stack:</strong> HTML, CSS, JavaScript
+                            </li>
+                            <li>
+                                Programmed a web-based interactive game Aim Quest focusing on dynamic animation techniques. 
+                            </li>
+                            <li>
+                                Designed engaging game-like animations, including shooting boards moving from bottom to top, and implemented 
+                                interactive effects such as animations on both the board and the shooting object upon click. 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a>
+                <!-- 9 -->
+                <a href="https://github.com/BrickMMO/roadview-v1" target="_blank" class="proj_card" id="proj_9"><!--Change This-->
+                    <div class="proj_name">Coupon Compare</div>
+                    <div class="proj_text" id="proj_text_9"><!--Change This--> 
+                        <ul class="proj_points">
+                            <li>
+                                <strong>Tech Stack:</strong> HTML, CSS, JavaScript, Figma
+                            </li>
+                            <li>
+                                Created a prototype (MVP) Coupon Compare, a platform enabling users to compare total prices for restaurant 
+                                menu items across three delivery platforms (Uber Eats, Door Dash, and Skip), utilizing Figma for UI design and 
+                                HTML, CSS, and JavaScript for implementation. 
+                            </li>
+                            <li>
+                                Implemented key features, including dropdown menus, dynamic pricing cards, and savings displays, to proficiently 
+                                demonstrate the platform's functionality and user-focused design.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a>
+                <!-- 10 -->
+                <!-- <a href="https://github.com/BrickMMO/roadview-v1" target="_blank" class="proj_card" id="proj_10">
+                    <div class="proj_name">SPSS</div>
+                    <div class="proj_text" id="proj_text_10">  -->
+                        <!-- <ul class="proj_points">
+                            <li>
+                                <strong>Tech Stack:</strong> PHP, Laravel, MySQL, JavaScript, HTML, CSS
+                            </li>
+                            <li>
+                                Developed a block-style interactive map simulating a LEGO-inspired city, with real-time route generation using the 
+                                Breadth-First Search (BFS) pathfinding algorithm. 
+                            </li>
+                            <li>
+                                Built RESTful APIs in PHP/Laravel to manage building, road, and route data from a MySQL database.
+                            </li>
+                            <li>
+                                Included features like search, custom start/destination input, and optimal path visualization, improving usability for 
+                                navigation-like scenarios.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a> -->
+                <!-- 11 -->
+                <!-- <a href="https://github.com/BrickMMO/roadview-v1" target="_blank" class="proj_card" id="proj_11">--><!--Change This -->
+                    <!-- <div class="proj_name">Movie Management</div> -->
+                    <!-- <div class="proj_text" id="proj_text_11">--> <!-- Change This  -->
+                        <!-- <ul class="proj_points">
+                            <li>
+                                <strong>Tech Stack:</strong> PHP, Laravel, MySQL, JavaScript, HTML, CSS
+                            </li>
+                            <li>
+                                Developed a block-style interactive map simulating a LEGO-inspired city, with real-time route generation using the 
+                                Breadth-First Search (BFS) pathfinding algorithm. 
+                            </li>
+                            <li>
+                                Built RESTful APIs in PHP/Laravel to manage building, road, and route data from a MySQL database.
+                            </li>
+                            <li>
+                                Included features like search, custom start/destination input, and optimal path visualization, improving usability for 
+                                navigation-like scenarios.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a> -->
+                <!-- 12 -->
+                <a href="https://github.com/BrickMMO/roadview-v1" target="_blank" class="proj_card" id="proj_12"><!--Change This-->
+                    <div class="proj_name">Toronto Attractions</div>
+                    <div class="proj_text" id="proj_text_12"><!--Change This--> 
+                        <ul class="proj_points">
+                            <li>
+                                <strong>Tech Stack:</strong> PHP, Laravel, MySQL, JavaScript, HTML, CSS
+                            </li>
+                            <li>
+                                Developed a block-style interactive map simulating a LEGO-inspired city, with real-time route generation using the 
+                                Breadth-First Search (BFS) pathfinding algorithm. 
+                            </li>
+                            <li>
+                                Built RESTful APIs in PHP/Laravel to manage building, road, and route data from a MySQL database.
+                            </li>
+                            <li>
+                                Included features like search, custom start/destination input, and optimal path visualization, improving usability for 
+                                navigation-like scenarios.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="proj_circle"><i class="fa-solid fa-arr_angle fa-arrow-right"></i></div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <section class="pg-m" id="exper">
+        <div class=" exper_sec">
+            <div class="exper_head">
+                <h2>My <span class="orng">Work Experience</span></h2>
+            </div>
+            <div class="exper_main">
+                <!-- experience block -->
+                    <div class="exper_box">
+                        <div class="ebox_head">
+                            <div class="ebox_year">
+                                <div class="line"></div>
+                                <div class="year">July 2025 - Present</div>
+                                <div class="exp_animate_num" id="exp1_obj1">1</div>
+                                <div class="exp_animate_flag" id="exp1_obj2"><img src="images/canada.png" width="100%" alt=""></div>
+                                <div class="exp_animate_logo" id="exp1_obj3"><img src="images/Sesaya.png" width="100%" alt=""></div>
+                            </div>
+                            <div class="ebox_title">Web Developer Intern, Sesaya Arts Mag. (Toronto)</div>
+                        </div>
+                        <div class="ebox_body">
+                            <ul>
+                                <li>Optimized Sesaya Arts' website using WordPress, Elementor and Astra, improving usability and site performance
+                                by implementing SEO best practices.</li>
+                                <li>Delivered a responsive, mobile-friendly redesign that improved session duration by 25% and reduced bounce rate
+                                by 18%, boosting overall engagement.</li>
+                                <li>Added Email marketing integration, improving audience connection and subscriber updates for new posts.</li>
+                                <li><a href="https://www.sesayarts.com/">Visit Site</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                <!-- experience block -->
+                    <div class="exper_box">
+                        <div class="ebox_head">
+                            <div class="ebox_year">
+                                <div class="line"></div>
+                                <div class="year">May 2025 - July 2025</div>
+                                <div class="exp_animate_num" id="exp2_obj1">2</div>
+                                <div class="exp_animate_flag" id="exp2_obj2"><img src="images/canada.png" width="100%" alt=""></div>
+                                <div class="exp_animate_logo" id="exp2_obj3"><img src="images/Gm_digital.png" width="100%" alt=""></div>
+                            </div>
+                            <div class="ebox_title">Web Developer Intern, GM Digital Inc. (Toronto)</div>
+                        </div>
+                        <div class="ebox_body">
+                            <ul>
+                                <li>Increased 35% organic traffic than usual through SEO optimization using Yoast. Maintained and managed
+                                    company's WordPress website using Elementor, enhancing UI/UX with custom CSS animation.</li>
+                                <li>Revamped the Case Study page into a compelling story-driven format and Strategically emphasized data-driven
+                                    results and performance numbers to reflect the value of digital marketing agency. Implemented a high-converting
+                                    lead magnet, resulting in 60% weekly client acquisition and lead generation boost.</li>
+                                <li><a href="https://gargimodi.ca/digital-marketing-agency/">Visit Site</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                <!-- experience block -->
+                    <div class="exper_box">
+                        <div class="ebox_head">
+                            <div class="ebox_year">
+                                <div class="line"></div>
+                                <div class="year">June 2022 - Apr 2023</div>
+                                <div class="exp_animate_num" id="exp3_obj1">3</div>
+                                <div class="exp_animate_flag" id="exp3_obj2"><img src="images/India.png" width="100%" alt=""></div>
+                            </div>
+                            <div class="ebox_title">Website Designer, Techno Riders (India)</div>
+                        </div>
+                        <div class="ebox_body">
+                            <ul>
+                                <li>Built custom websites using HTML, CSS, JavaScript, and WordPress, tailored to client brand identity and specific 
+                                    needs, 75% of client's websites became more easier to use and understand.</li>
+                                <li>Ensured consistent website functionality and design across all devices through responsive and cross-platform 
+                                    development, Achieved a 100% consistent user experience across all cross-platform design.</li>
+                                <li>Constructed prototypes, graphics, and created visually engaging elements using Adobe Photoshop and Figma.</li>
+                                <li>Designed accessible websites adhering to WCAG 2.1 guidelines to enhance usability for all users.</li>
+                            </ul>
+                        </div>
+                    </div>
+                <!-- experience block -->
+                    <div class="exper_box">
+                                
+                        <div class="ebox_head">
+                            <div class="ebox_year">
+                                <div class="line"></div>
+                                <div class="year">March 2022 - June 2022</div>
+                                <div class="exp_animate_num" id="exp4_obj1">4</div>
+                                <div class="exp_animate_flag" id="exp4_obj"><img src="images/India.png" width="100%" alt=""></div>
+                                <div class="exp_animate_logo" id="exp4_obj3"><img src="images/cactus_logo.svg" width="100%" alt=""></div>
+                            </div>
+                            <div class="ebox_title">Website Designer, Cactus Creatives (India)</div>
+                        </div>
+                        <div class="ebox_body">
+                            <ul>
+                                <li>Designed visually appealing and user-centric websites for clients, for instance <a href="https://www.unitedchemie.com/index.html">United Chemie</a>, <a href="https://waterandwastemanagement.org/">Water and Waste
+                                    Management</a> and <a href="https://higrowsolutions.us/#home">High Grow Solutions</a>, 95% reported increased traffic to web page after deployment.</li>
+                                <li>Developed responsive and visually appealing layouts using HTML, CSS, JavaScript, flexbox, and animations.</li>
+                                <li>Enhanced website engagement and functionality with libraries/frameworks like jQuery, Bootstrap, and Tailwind.</li>
+                                <li>Delivered webpages customized to stakeholder requirements, improving usability and ensuring alignment with industry standards.</li>
+                                <li>Provided creative and strategic design input, ensuring technical feasibility and effective information presentation</li>
+
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="hire_sec_bg" id="about">
+        <div class="hire_sec">
+            <div class="hire_head">
+                <h2>About <span class="orng">Me</span></h2>
+            </div>
+            <div class="hire_body">
+                <div class="hire_img">
+                    <img src="images/Dhruv_side.jpg" alt="Dhruv Shah" width="100%">
+                </div>
+                <div class="hire_data">
+                    <div class="hire_text">
+                        A passionate Full Stack Web Developer with a strong focus on building clean, functional, and user-driven digital experiences. I enjoy turning ideas into interactive solutions. Designing engaging frontends or developing robust backend systems.
+                        I am constantly exploring new ways to grow, whether it's learning, observing great design, or refining how I think and work every day.
+                    </div>
+                    <div class="mt-3 hire_text2">
+                        <div class="h_loc">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="ht2 ms-2">Toronto, Canada</span>
+                        </div>
+                        <div class="h_mail">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="ht2 ms-2">
+                                <a href="mailto:dhruvshah2811ds@gmail.com">dhruvshah2811ds@gmail.com</a>
+                            </span>
+                        </div>
+                        <div class="h_social">
+                            <a class="hire_logo" href="https://github.com/dhruvShah28"><i class="fa-brands fa-square-github"></i></a>
+                            <a class="hire_logo" href="https://www.linkedin.com/in/dhruv-shah-700731208/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a class="hire_logo" href="https://www.instagram.com/dhruvshah_2811?igsh=OHdqdWUyY2cyZG9m"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a class="hire_logo" href="#"><i class="fa-brands fa-spotify"></i></a>
+                        </div>
+                    </div>
+
+                    <hr>
+                          <table class="edu_table ms-auto me-auto text-center">
+                            <thead>
+                              <tr class="edu_box edu_head">
+                                <th>Year</th>
+                                <th>Institute</th>
+                                <th>Degree</th>
+                                <th>Grade</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="edu_box">
+                                <td>2024 - 2025</td>
+                                <td>Humber College</td>
+                                <td>Web Development</td>
+                                <td>(Honours Degree) 3.8</td>
+                              </tr>
+                              <tr class="edu_box">
+                                <td>2023 - 2024</td>
+                                <td>Conestoga College</td>
+                                <td>Business Analytics</td>
+                                <td>3.6</td>
+                              </tr>
+                              <tr class="edu_box">
+                                <td>2018 - 2021</td>
+                                <td>Gujarat University</td>
+                                <td>Bachelors in Computer Applications</td>
+                                <td>7.62</td>
+                              </tr>
+                            </tbody>
+                        </table>
+    
+    
+                </div>
+            </div>
+        </div>
+    <section class="no-mar">
+        <div class="skill_sec_head mb-3">
+            <h3 class="sk_head"> Skills</h3>
+        </div>
+        <div class="banner_sec">
+            <div class="banner_holder">
+                <div class="banner_row"> <!--Banner container-->
+                    <div class="scroll_group" id="scroll_content"> <!--Banner group--> 
+                        <!-- Banner CArds -->
+                        <div class="banner_text">HTML</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">CSS</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">JavaScript</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">SQL</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">C#</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Python</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">PHP</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Laravel</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">MongoDB</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Express.JS</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">React</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Node.JS</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Wordpress</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Bootstrap</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Jquery</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Front_End</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Microsoft Suite</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">PowerBI</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Front-End</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Back-End</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Figma</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Photoshop</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Adobe Suite</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Canva</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">UI/UX</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Git</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">GitHub</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Vercel</div>
+                        <img src="images/stars.png" alt="star">
+                        <div class="banner_text">Render</div>
+                        <img src="images/stars.png" alt="star">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="skills_sec pt-4 pb-1">
+        <div class="skill_toggle" id="skill_toggle"><i class="fa-solid sk_arrows fa-angle-down" id="sk_arrow_left"></i> <span id="sk_toggle_text">View</span> Detailed Skill <i class="fa-solid sk_arrows fa-angle-down" id="sk_arrow_right"></i></div>
+        <div class="skill_box" id="skill_area">
+            <div class="skill_line">
+                <div class="skill_head">Technical Skills:</div>
+                <div class="skill_data">
+                    <span class="skill_tag">HTML</span>
+                    <span class="skill_tag">CSS</span>
+                    <span class="skill_tag">JavaScript</span>
+                    <span class="skill_tag">SQL</span>
+                    <span class="skill_tag">C#</span>
+                    <span class="skill_tag">Python</span>
+                    <span class="skill_tag">PHP</span>
+                    <span class="skill_tag">Laravel</span>
+                    <span class="skill_tag">MongoDB</span>
+                    <span class="skill_tag">Express</span>
+                    <span class="skill_tag">React</span>
+                    <span class="skill_tag">Node</span>
+                    <span class="skill_tag">Bootstrap</span>
+                    <span class="skill_tag">WordPress</span>
+                    <span class="skill_tag">jQuery</span>
+                    <span class="skill_tag">Microsoft Suite</span>
+                    <span class="skill_tag">MySQL</span>
+                    <span class="skill_tag">PowerBI</span>
+                </div>
+            </div>
+
+            <div class="skill_line">
+                <div class="skill_head">UI/UX Skills:</div>
+                <div class="skill_data">
+                    <span class="skill_tag">Figma</span>
+                    <span class="skill_tag">Adobe Suite</span>
+                    <span class="skill_tag">Photoshop</span>
+                    <span class="skill_tag">Canva</span>
+                </div>
+            </div>
+
+            <div class="skill_line">
+                <div class="skill_head">Version Control:</div>
+                <div class="skill_data">
+                    <span class="skill_tag">Git</span>
+                    <span class="skill_tag">GitHub</span>
+                    <span class="skill_tag">Vercel</span>
+                    <span class="skill_tag">Render</span>
+                </div>
+            </div>
+
+            <div class="skill_line">
+                <div class="skill_head">Soft Skills:</div>
+                <div class="skill_data">
+                    <span class="skill_tag">Leadership</span>
+                    <span class="skill_tag">Time Management</span>
+                    <span class="skill_tag">Teamwork</span>
+                    <span class="skill_tag">Client Interaction</span>
+                    <span class="skill_tag">Problem Solving</span>
+                    <span class="skill_tag">Analytical Reasoning</span>
+                </div>
+            </div>
+            <div class="skill_line">
+                <div class="skill_head">Certifications:</div>
+                <div class="skill_data">
+                    <span class="skill_tag"> Introduction to HTML 5</span>
+                    <span class="skill_tag">JavaScript Basics</span>
+                    <span class="skill_tag">Foundation of UX Design</span>
+                    <span class="skill_tag">Client Interaction</span>
+                    <span class="skill_tag">Social Media Marketing</span>
+                    <span class="skill_tag">Blind Coding and Debugging Competition</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact_sec">
+            <div class="cont_head">
+                <h2>Have an Awesome Project Idea? <span class="orng">Hire Me</span></h2>
+            </div>
+            <form name="contact_form" validate>
+                <div class="cont_body">
+                    <div class="cont_input">
+                        <input type="text" name="name" id="name" placeholder="Name">
+                    </div>
+                    <div class="cont_input email">
+                        <input type="text" name="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="cont_input message">
+                        <textarea name="message" id="message" rows="8" placeholder="Message"></textarea>
+                    </div>
+                    <div id="err_sec"><span id="error_text">Error</span></div>
+                    <button class="cont_submit" type="submit" >Send Message</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <footer>
+        <div class="footer_sec">
+            <div class="foot_head">
+                <div class="f_text">
+                    <h2>Let's <span class="orng">Connect</span></h2>
+                </div>
+                <div class="f_link"><a href="#" class="flink">Hire Me  <i class="fa-solid fa-arr_angle fa-arrow-right"></i></a></div>
+            </div>
+            <div class="foot_line"></div>
+            <div class="foot_main">
+                <div class="f_intro">
+                    I specialize in creating dynamic, responsive websites using HTML, CSS, JavaScript, 
+                    and the MERN stack. With a strong focus on UI/UX design, 
+                    I aim to craft seamless user experiences that are both functional and visually appealing. 
+                    Passionate about learning and collaborating on innovative web projects.
+                </div>
+                <div class="f_nav">
+                    <div class="fnav">Navigation</div>
+                    <ul>
+                        <li><i class="mobile_angle fa-solid fa-angle-right"></i> <a href="#">Home</a></li>
+                        <li><i class="mobile_angle fa-solid fa-angle-right"></i> <a href="#project">Projects</a></li>
+                        <li><i class="mobile_angle fa-solid fa-angle-right"></i> <a href="#exper">Experience</a></li>
+                        <li><i class="mobile_angle fa-solid fa-angle-right"></i> <a href="#about">About</a></li>
+                        <li><i class="mobile_angle fa-solid fa-angle-right"></i> <a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="f_cont">
+                    <div class="fnav">Connect</div>
+                    <div class="fcont_block">
+                        <div class="fcont_email">
+                            <i class="fa-regular fa-envelope"></i> 
+                            <a href="mailto:dhruvshah2811ds@gmail.com">dhruvshah2811ds@gmail.com</a>
+                        </div>
+                        <div class="fcont_links">
+                            <a href="https://github.com/dhruvShah28"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="https://www.linkedin.com/in/dhruv-shah-700731208/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/dhruvshah_2811?igsh=OHdqdWUyY2cyZG9m"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-spotify"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot_line"></div>
+            <div class="foot_end">
+                <!-- <div class="foot_copy">Copyright&copy; 2025 DhruvShah. All Rights Reserved.</div> -->
+                <div class="foot_date"></div>
+                <div class="foot_name">Hand Coded by Dhruv Shah</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
